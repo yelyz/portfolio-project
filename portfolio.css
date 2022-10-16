@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #000000de;
+  --primary-color: #070707;
   --secondary-color: #000000e0;
   --font-color: #b6b6b6;
   --title-font: "Concert One", cursive;
@@ -15,19 +15,20 @@
 }
 body {
   color: var(--font-color);
-  background: var(--secondary-color);
+  background: var(--primary-color);
   min-width: 400px;
 }
 .full-container {
   max-width: 900px;
   background: var(--primary-color);
   display: block;
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 50px 70px;
 }
 h1 {
   font-family: var(--title-font);
   text-align: center;
+  margin-top: 50px;
 }
 h2 {
   font-family: var(--title-font);
@@ -66,4 +67,14 @@ p {
 }
 .contact-me-link {
   margin-left: 20px;
+}
+.navigation-bar {
+  background: var(--primary-color);
+  color: var(--font-color);
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+}
+.navbar-text {
+  color: var(--font-color);
 }
