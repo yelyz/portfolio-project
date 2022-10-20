@@ -11,12 +11,15 @@
   }
   p {
     text-align: center;
+    font-size: 16px;
   }
 }
 body {
   color: var(--font-color);
   background: var(--primary-color);
-  min-width: 300px;
+
+  font-family: var(--paragraph-font);
+  font-size: 18px;
 }
 .full-container {
   max-width: 900px;
@@ -38,10 +41,7 @@ h2 {
 h3 {
   font-family: var(--title-font);
 }
-p {
-  font-family: var(--paragraph-font);
-  font-size: 18px;
-}
+
 .homepage-photos {
   padding: 20px;
 }
@@ -77,4 +77,20 @@ p {
 }
 .navbar-text {
   color: var(--font-color);
+}
+.contact-link {
+  color: var(--font-color);
+  transition: all 100ms ease-in-out;
+}
+.contact-link:hover {
+  color: #850000;
+  text-decoration: none;
+}
+.small-image {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+.setup {
+  color: #850000;
 }
