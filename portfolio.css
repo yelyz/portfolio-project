@@ -1,6 +1,6 @@
 :root {
   --primary-color: #070707;
-  --secondary-color: #000000e0;
+  --secondary-color: #850000;
   --font-color: #b6b6b6;
   --title-font: "Concert One", cursive;
   --paragraph-font: "Ubuntu Condensed", sans-serif;
@@ -83,7 +83,7 @@ h3 {
   transition: all 100ms ease-in-out;
 }
 .contact-link:hover {
-  color: #850000;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .small-image {
@@ -92,5 +92,14 @@ h3 {
   margin: 0 auto;
 }
 .setup {
-  color: #850000;
+  color: var(--secondary-color);
+}
+.footer {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.footer:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
 }
